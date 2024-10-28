@@ -1,0 +1,72 @@
+//
+// Contact section styling
+//
+
+@import '../global';
+
+section#contact {
+    background-color: $primary;
+    font-family: $body-font-family;
+
+    .btn-contact {
+        height: 56px;
+        color: $black;
+        background-color: #FED420;
+        font-family: $body-font-family;
+        font-size: 16px;
+        font-weight: 800;
+        border-radius: 32px;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+
+    @include sm {
+        height: 725px;
+        padding-top: 48px;
+        padding-right: 16px;
+        padding-bottom: 48px;
+        padding-left: 16px;
+
+        #copy {
+            border-radius: 24px;
+            padding-top: 24px;
+            padding-right: 16px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+        }
+
+        .contact-form {
+            border-radius: 24px;
+            padding-top: 24px;
+            padding-left: 16px;
+            padding-right: 16px;
+            color: $white;
+            background-color: $black;
+            height: 625px;
+        }
+    }
+
+    @include md {
+        height: 600px;
+        padding-top: 64px;
+        padding-right: 80px;
+        padding-bottom: 64px;
+        padding-left: 80px;
+
+        #copy {
+            padding-top: 100px;
+            padding-left: 200px;
+        }
+
+        .contact-form {
+            padding-top: 50px;
+            padding-right: 100px;
+            color: $white;
+            background-color: $black;
+            height: 473px;
+            margin: auto;
+        }
+    }
+}

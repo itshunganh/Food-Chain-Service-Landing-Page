@@ -1,0 +1,39 @@
+//
+// Sticky nav section styling
+//
+
+@import '../global';
+
+section#stickynav {
+    @include sm {
+        display: none;
+    }
+
+    @include md {
+        margin: auto;
+        height: 53px;
+        background-color: #3C3B34;
+        font-family: $body-font-family;
+        border-style: solid;
+        border-color: #3C3B34;
+        overflow: hidden;
+
+        a {
+            float: right;
+            display: block;
+            color: $white;
+            text-align: center;
+            padding: 16px;
+            border-color: $white;
+            border-left-style: solid;
+        }
+        a.active {
+            background-color: $tertiary;
+            color: $black;
+            border-color: $white;
+            border-left-style: solid;
+        }
+    }
+
+    
+}

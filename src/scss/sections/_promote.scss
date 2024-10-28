@@ -1,0 +1,159 @@
+//
+// Promote section styling
+//
+
+@import '../global';
+
+section#promote {
+    background-color: #3C3B34;
+    text-align: center;
+
+    .btn-promote {
+        height: 56px;
+        width: 336px;
+        color: $black;
+        background-color: $primary;
+        font-family: $body-font-family;
+        font-size: 16px;
+        font-weight: 800;
+        border-radius: 32px;
+        border: none;
+        text-decoration: none;
+    }
+
+    @include sm {
+        height: 1800px;
+        padding-top: 48px;
+
+        .promote-headline {
+            height: 272px;
+            width: 343px;
+            max-width: fit-content;
+            font-family: $body-font-family;
+            color: $primary;
+            margin: auto;
+        }
+        .promote-header {
+            height: 88px;
+            font-size: 32px;
+            font-weight: 800;
+        }
+        .promote-subheader {
+            height: 96px;
+            font-size: 16px;
+            font-weight: 500;
+            padding-bottom: 16px;
+        }
+        .promote-body {
+            height: 1400px;
+            width: 343px;
+            margin: auto;
+            text-align: left;
+            font-family: $body-font-family;
+            padding-top: 48px;
+        }
+        .item1, .item2, .item3 {
+            height: 450px;
+            width: 343px;
+            background-color: #FFD650;
+            border-radius: 24px;
+            padding-top: 24px;
+            padding-left: 16px;
+            margin-right: 24px;
+            margin-bottom: 24px;
+        }
+        #copy1, #copy2, #copy3 {
+            height: 202px;
+            font-size: 16px;
+            font-weight: 400;
+            padding-top: 24px;
+        }
+        #img1 {
+            height: 183px;
+            background-image: url("../assets/img/promote-1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #img2 {
+            height: 183px;
+            background-image: url("../assets/img/promote-2.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #img3 {
+            height: 183px;
+            background-image: url("../assets/img/promote-3.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    @include md {
+        height: 800px;
+        padding-top: 64px;
+
+        .promote-headline {
+            margin: auto;
+            height: 180px;
+            width: 1280px;
+            max-width: fit-content;
+            font-family: $body-font-family;
+            color: $primary;
+            margin-bottom: 16px;
+        }
+        .promote-header {
+            height: 44px;
+            width: 1024px;
+            font-size: 42px;
+            font-weight: 800;
+        }
+        .promote-subheader {
+            height: 48px;
+            width: 1024px;            
+            font-size: 16px;
+            font-weight: 500;
+            padding-top: 24px;
+            padding-bottom: 48px;
+        }
+        .promote-body {
+            height: 482px;
+            width: 1280px;
+            margin: auto;
+            text-align: left;
+            font-family: $body-font-family;
+        }
+        .item1, .item2, .item3 {
+            height: 425px;
+            width: 392px;
+            background-color: #FFD650;
+            border-radius: 24px;
+            padding-top: 24px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        #copy1, #copy2, #copy3 {
+            height: 202px;
+            font-size: 16px;
+            font-weight: 400;
+            padding-top: 24px;
+        }
+        #img1 {
+            height: 183px;
+            background-image: url("../assets/img/promote-1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #img2 {
+            height: 183px;
+            background-image: url("../assets/img/promote-2.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #img3 {
+            height: 183px;
+            background-image: url("../assets/img/promote-3.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}

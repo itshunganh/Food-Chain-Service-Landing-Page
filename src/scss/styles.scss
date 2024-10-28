@@ -1,0 +1,25 @@
+//
+// Styles
+//
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Global CSS
+@import "./global.scss";
+
+
+// Sections
+@import "./sections/alt.scss";
+@import "./sections/contact.scss";
+@import "./sections/hero.scss";
+@import "./sections/howto.scss";
+@import "./sections/promote.scss";
+@import "./sections/resources.scss";
+@import "./sections/stickynav.scss";
+@import "./sections/trends.scss";
+
+
+
+
+

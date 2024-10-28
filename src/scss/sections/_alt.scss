@@ -1,0 +1,101 @@
+//
+// Alt section styling
+// 
+
+@import '../global';
+
+section#alt {
+    background-color: $secondary;
+    text-align: center;
+
+    .btn-alt {
+        height: 56px;
+        width: 336px;
+        color: $black;
+        background-color: $primary;
+        font-family: $body-font-family;
+        font-size: 16px;
+        font-weight: 800;
+        border-radius: 32px;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    @include sm {
+        height: 780px;
+        padding-top: 48px;
+
+        .alt-header {
+            margin: auto;
+            height: 124px;
+            width: 300px;
+            font-family: $header-font-family;
+            font-size: 30px;
+            background-image: url("../assets/img/alt-header-mobile.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            padding-top: 16px;
+        }
+    
+        .alt-subheader {
+            margin: auto;
+            max-width: fit-content;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            height: 144px;
+            width: 343px;
+            font-family: $body-font-family;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .alt-picture {
+            margin: auto;
+            padding-top: 350px;
+            background-image: url("../assets/img/alt-mobile.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    };
+
+    @include md {
+        height: 686px;
+        padding-top: 64px;
+
+        .alt-header {
+            margin: auto;
+            height: 100px;
+            width: 800px;
+            background-image: url("../assets/img/alt-header.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: $header-font-family;
+            font-size: 40px;
+            font-weight: 400;
+            padding-top: 16px;
+        }
+
+        .alt-subheader {
+            margin: auto;
+            max-width: fit-content;
+            height: 48px;
+            width: 1060px;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: $body-font-family;
+            text-align: center;
+        }
+
+        .alt-picture {
+            margin: auto;
+            height: 270px;
+            width: 1203px;
+            background-image: url("../assets/img/alt.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    };
+
+}
+

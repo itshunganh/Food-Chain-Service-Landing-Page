@@ -1,0 +1,98 @@
+//
+// Top Trends section styling
+// 
+
+@import '../global';
+
+section#trends {
+    background-color: $primary;
+    text-align: center;
+
+    .btn-trends {
+        height: 56px;
+        width: 336px;
+        color: $black;
+        background-color: #FED420;
+        font-family: $body-font-family;
+        font-size: 16px;
+        font-weight: 800;
+        border-radius: 32px;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    @include sm {
+        height: 750px;
+        padding-top: 48px;
+
+        .trends-headline {
+            margin: auto;
+            height: 272px;
+            width: 343px;
+            max-width: fit-content;
+            font-family: $body-font-family;
+        }
+        .trends-header {
+            height: 88px;
+            font-size: 32px;
+            font-weight: 800;
+        }
+        .trends-subheader {
+            height: 96px;
+            font-size: 16px;
+            font-weight: 500;
+            padding-top: 16px;
+        }
+        .trends-body {
+            margin: auto;
+            width: 343px;
+            height: 516px;
+            text-align: left;
+            font-family: $body-font-family;
+        }
+        #copy {
+            height: 175px;
+            margin-top: 50px;
+        }
+    }
+
+    @include md {
+        height: 800px;
+        padding-top: 64px;
+
+        .trends-headline {
+            margin: auto;
+            height: 84px;
+            width: 1024px;
+            max-width: fit-content;
+            font-family: $body-font-family;
+        }
+        .trends-header {
+            height: 44px;
+            font-size: 42px;
+            font-weight: 800;
+        }
+        .trends-subheader {
+            height: 24px;
+            font-size: 16px;
+            font-weight: 500;
+            padding-top: 16px;
+            padding-bottom: 16px;        
+        }
+        .trends-body {
+            width: 1236px;
+            height: 556px;
+            margin: auto;
+            padding-top: 100px;
+            text-align: left;
+            font-family: $body-font-family;
+        }
+        #copy {
+            height: 142px;
+            width: 300px;
+            margin-top: 100px;
+        }
+
+    }
+}

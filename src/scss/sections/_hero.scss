@@ -1,0 +1,50 @@
+//
+// Hero section styling
+// 
+
+@import '../global';
+
+header.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: $white;
+    
+    @include sm {
+        height: 529px;
+        background-image: url("../assets/img/hero-mobile.png");
+        background-position: top;
+        padding-left: 16px;
+        padding-right: 16px;
+        
+        .hero-subheader {
+            font-size: 16px;
+            font-weight: 500;
+            font-family: $body-font-family;
+            padding-top: 300px;
+            text-align: center;
+        }
+    };
+
+    @include md {
+        height: 542px;
+        background-image: url("../assets/img/hero.png");
+        background-position: left;
+        padding-left: 80px;
+        padding-right: 80px;
+
+        .hero-subheader {
+            height: 268px;
+            width: 600px;
+            padding-top: 350px;
+            padding-right: 50px;
+            padding-left: 25px;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: $body-font-family;
+            text-align: left;
+        }
+    };
+
+}
+

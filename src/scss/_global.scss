@@ -1,0 +1,68 @@
+// 
+// Global theme styling
+// 
+
+// * FONTS * //
+$body-font-family: "brother-1816", "Trebuchet MS", sans-serif;
+$header-font-family: "McCainWedgeBrush-Regular", "Trebuchet MS", sans-serif;
+
+
+// * COLORS * //
+$black: #1d1d1b;
+$charcoal: #3C3B34;
+$white: #fff;
+$yellow: #ffc803;
+$primary: #FFFADC;
+$secondary: #FF9103;
+$tertiary: #FFD650;
+
+
+// * MEDIA QUERIES *
+$breakpoints: (
+  "sm": 375px,
+  "md": 768px,
+  "lg": 1024px,
+  "xl": 1440px,
+  "xxl": 1600px,
+);
+
+@mixin sm {
+  @media (min-width: map-get($breakpoints, "sm")) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: map-get($breakpoints, "lg")) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: map-get($breakpoints, "xl")) {
+    @content;
+  }
+}
+@mixin xxl {
+  @media (min-width: map-get($breakpoints, "xxl")) {
+    @content;
+  }
+}
+
+@mixin breakpoint($bp: 0) {
+  @media (max-width: $bp) {
+    @content;
+  }
+}
+
+
+// * SPACING * //
+$spacing-x-sm: rem(24);
+$spacing-x-md: rem(72);
+$spacing-x-lg: rem(120);
+$spacing-x-xl: calc((100vw - rem(1440)) / 2 + $spacing-x-lg);
+$spacing-x-xxl: calc(rem(160) / 2 + $spacing-x-lg);
+

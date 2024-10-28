@@ -1,0 +1,149 @@
+//
+// Additional resources section styling
+//
+
+@import '../global';
+
+section#resources {
+    background-color: $tertiary;
+    text-align: center;
+
+    .btn-resources {
+        height: 56px;
+        width: 336px;
+        color: $black;
+        background-color: $primary;
+        font-family: $body-font-family;
+        font-size: 16px;
+        font-weight: 800;
+        border-radius: 32px;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    a {
+        color: $black;
+    }
+
+    @include sm {
+        height: 1550px;
+        padding-top: 48px;
+
+        .resources-headline {
+            height: 150px;
+            width: 343px;
+            max-width: fit-content;
+            font-family: $body-font-family;
+            color: $black;
+            margin: auto;
+        }
+        .resources-header {
+            height: 96px;
+            font-size: 32px;
+            font-weight: 800;
+        }
+        .resources-body {
+            height: 1200px;
+            width: 343px;
+            margin: auto;
+            text-align: left;
+            font-family: $body-font-family;
+            padding-top: 48px;
+        }
+        .item1, .item2, .item3 {
+            height: 375px;
+            width: 343px;
+            padding-top: 24px;
+            margin-bottom: 48px;
+        }
+        #copy1, #copy2, #copy3 {
+            height: 48px;
+            font-size: 16px;
+            font-weight: 400;
+            padding-top: 16px;
+        }
+        #img1 {
+            height: 311px;
+            background-image: url("../assets/img/add-resources-1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 16px;
+        }
+        #img2 {
+            height: 311px;
+            background-image: url("../assets/img/add-resources-2.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 16px;
+        }
+        #img3 {
+            height: 311px;
+            background-image: url("../assets/img/add-resources-3.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 16px;
+        }
+    }
+
+    @include md {
+        height: 750px;
+        padding-top: 64px;
+
+        .resources-headline {
+            height: 128px;
+            width: 1024px;
+            max-width: fit-content;
+            font-family: $body-font-family;
+            color: $black;
+            margin: auto;
+        }
+        .resources-header {
+            height: 48px;
+            font-size: 40px;
+            font-weight: 800;
+        }
+        .resources-body {
+            height: 500px;
+            width: 1280px;
+            margin: auto;
+            text-align: left;
+            font-family: $body-font-family;
+        }
+        .item1, .item2, .item3 {
+            height: 375px;
+            width: 380px;
+            padding-top: 48px;
+            padding-right: 16px;
+            padding-bottom: 48px;            
+            padding-left: 16px;
+        }
+        #copy1, #copy2, #copy3 {
+            height: 48px;
+            font-size: 16px;
+            font-weight: 400;
+            padding-top: 16px;
+        }
+        #img1 {
+            height: 311px;
+            background-image: url("../assets/img/add-resources-1.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 16px;
+        }
+        #img2 {
+            height: 311px;
+            background-image: url("../assets/img/add-resources-2.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 16px;
+        }
+        #img3 {
+            height: 311px;
+            background-image: url("../assets/img/add-resources-3.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 16px;
+        }
+    }
+}

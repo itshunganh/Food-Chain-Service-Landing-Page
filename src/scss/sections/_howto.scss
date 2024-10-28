@@ -1,0 +1,227 @@
+//
+// How To section styling
+// 
+
+@import '../global';
+
+section#howto {
+    background-image: linear-gradient(#FED420, #FF9103);
+    text-align: center;
+
+    .btn-howto {
+        height: 56px;
+        width: 336px;
+        color: $black;
+        background-color: $primary;
+        font-family: $body-font-family;
+        font-size: 16px;
+        font-weight: 800;
+        border-radius: 32px;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+    } 
+    
+    @include sm {
+        height: 3450px;
+        padding-top: 48px;
+
+        .howto-headline {
+            margin: auto;
+            height: 272px;
+            width: 343px;
+            max-width: fit-content;
+            font-family: $body-font-family;
+        }
+        .howto-header {
+            height: 88px;
+            font-size: 32px;
+            font-weight: 800;
+        }
+        .howto-subheader {
+            height: 96px;
+            font-size: 16px;
+            font-weight: 500;
+            padding-top: 16px;
+        }
+        .howto-body {
+            margin: auto;
+            width: 375px;
+            height: 4000px;
+            text-align: left;
+            font-family: $body-font-family;
+        }
+        #img1 {
+            height: 443px;
+            background-image: url("../assets/img/howto-1-mobile.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #copy1 {
+            height: 140px;
+            border-radius: 24px;
+            background: $primary;
+            padding: 20px;
+            margin-bottom: 64px;
+        }
+        #img2 {
+            height: 443px;
+            background-image: url("../assets/img/howto-2-mobile.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #copy2 {
+            height: 120px;
+            border-radius: 24px;
+            background: $primary;
+            padding: 20px;
+            margin-bottom: 64px;
+        }
+        #img3 {
+            height: 443px;
+            background-image: url("../assets/img/howto-3-mobile.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #copy3 {
+            height: 120px;
+            border-radius: 24px;
+            background: $primary;
+            padding: 20px;
+            margin-bottom: 64px;
+        }
+        #img4 {
+            height: 443px;
+            background-image: url("../assets/img/howto-4-mobile.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #copy4 {
+            height: 120px;
+            border-radius: 24px;
+            background: $primary;
+            padding: 20px;
+            margin-bottom: 64px;
+        }
+        #img5 {
+            height: 443px;
+            background-image: url("../assets/img/howto-5-mobile.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #copy5 {
+            height: 100px;
+            border-radius: 24px;
+            background: $primary;
+            padding: 20px;
+            margin-bottom: 64px;
+        }
+    }
+
+    @include md {
+        height: 2280px;
+        padding-top: 80px;
+
+        .howto-headline {
+            margin: auto;
+            height: 180px;
+            width: 1280px;
+            max-width: fit-content;
+            font-family: $body-font-family;
+        }
+        .howto-header {
+            height: 44px;
+            width: 1024px;
+            font-size: 42px;
+            font-weight: 800;
+        }
+        .howto-subheader {
+            height: 48px;
+            width: 1024px;
+            font-size: 16px;
+            font-weight: 500;
+            padding-top: 16px;
+            padding-bottom: 16px;     
+        }
+        .howto-body {
+            width: 1280px;
+            height: 1800px;
+            margin: auto;
+            text-align: left;
+            font-family: $body-font-family;
+        }
+        #img1 {
+            height: 552px;
+            background-image: url("../assets/img/howto-1.png");
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+        #copy1 {
+            height: 160px;
+            width: 301px;
+            border-radius: 24px;
+            background: $primary;
+            padding: 20px;
+            margin-top: 200px;
+        }
+        #img2 {
+            height: 356px;
+            background-image: url("../assets/img/howto-2.png");
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        #copy2 {
+            height: 170px;
+            width: 301px;
+            border-radius: 24px;
+            background: $primary;
+            padding: 20px;
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+        #img3 {
+            height: 397px;
+            background-image: url("../assets/img/howto-3.png");
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+        #copy3 {
+            height: 140px;
+            width: 301px;
+            border-radius: 24px;
+            background: $primary;
+            padding: 20px;
+            margin-top: 100px;
+        }
+        #img4 {
+            height: 358px;
+            background-image: url("../assets/img/howto-4.png");
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        #copy4 {
+            height: 150px;
+            width: 301px;
+            border-radius: 24px;
+            background: $primary;
+            padding: 20px;
+            margin-top: 100px;
+            margin-left: 200px;
+        }
+        #img5 {
+            height: 327px;
+            background-image: url("../assets/img/howto-5.png");
+            background-repeat: no-repeat;
+            background-position: right;
+
+        }
+        #copy5 {
+            height: 130px;
+            width: 301px;
+            border-radius: 24px;
+            background: $primary;
+            padding: 20px;
+            margin-top: 100px;
+        }
+    }
+}

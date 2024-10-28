@@ -1,0 +1,249 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title McCain LTO in a Box
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Hero
+        header.hero
+            .hero-subheader LTOs (limited time offers) can boost traffic and bring in new customers. They're right for operators of any-size. And best of all, with  a little planning, LTOs don't require a complete menu revamp.
+
+        // Alt
+        section#alt
+            .alt-header MCCAIN CAN HELP MAKE LTOS TURNKEY.
+            .alt-subheader Start with our how-to guide, an easy way to begin defining and planning your LTO. Next, find inspiration and menu ideas from McCain chefs. Finish by getting the word out with tips from our marketing guide. It’s all part of how we help you unlock your menu potential.
+            .alt-picture
+            button.btn-alt(type='button')
+                i.fa-solid.fa-download
+                b DOWNLOAD HOW-TO GUIDE
+            
+        // Stickey Nav
+        section#stickynav
+            a(href='#').active DOWNLOAD YOUR FULL LTO KITS   
+            a(href='#') RESOURCES
+            a(href='#') CONTACT
+            a(href='#') PROMOTING
+            a(href='#') TRENDS
+            a(href='#') HOW-TO
+            a(href='#') TOP
+
+        // How To
+        section#howto                
+            .howto-headline
+                .howto-header HOW TO CREATE A WINNING LTO
+                .howto-subheader Start simple. Consider your key components, then dial up or down the number of ingredients to match your menu, pricing strategy and customers’ preferences.
+                button.btn-howto.mt-4(type='button')
+                    i.fa-solid.fa-download
+                    b DOWNLOAD HOW-TO GUIDE      
+            .howto-body
+                .row
+                    .col-sm-7
+                        #img1
+                    .col-sm-5
+                         #copy1
+                            h3: b BASE
+                            p Your primary ingredient you build menu item around — fries, crispy veggies, a burger or a wrap.
+                .row
+                    .col-sm-7.order-md-2
+                        #img2
+                    .col-sm-5.order-md-1
+                        #copy2
+                            h3: b CREAMY OR SMOOTH
+                            p Think cheese, mayo, tahini-ranch or a tomato-based sauce like BBQ.
+                .row
+                    .col-sm-7
+                        #img3
+                    .col-sm-5
+                        #copy3 
+                            h3: b SALTY OR SAVORY
+                            p Try pickles, pickled onions or even pepper jelly or bacon jam.
+                .row
+                    .col-sm-7.order-md-2
+                        #img4
+                    .col-sm-5.order-md-1
+                        #copy4
+                            h3: b GARNISH
+                            p An ingredient for added freshness, crunch or flavor like herbs, nuts or fried onions.
+                .row
+                    .col-sm-7
+                        #img5
+                    .col-sm-5
+                        #copy5 
+                            h3: b DRIZZLE
+                            p resources sauce for color, texture and flavor.
+
+        // Top Trends
+        section#trends
+            .trends-headline
+                .trends-header TOP TRENDS TO INSPIRE YOUR TEAM
+                .trends-subheader We've crunched the top consumer trends to find four that can help guide the creation of your next LTO.
+                button.btn-trends.mt-4(type='button')
+                    i.fa-solid.fa-download
+                    b DOWNLOAD LTO TREND GUIDE
+            .trends-body
+                .row.mt-4
+                    .col-sm-8
+                        #carouselExample.carousel.slide
+                            .carousel-indicators
+                                button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+                                button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')
+                                button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')
+                                button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='3' aria-label='Slide 4')
+                            .carousel-inner
+                                .carousel-item.active
+                                    img.d-block.w-100(src='assets/img/trends-1.png' alt='First slide')
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/img/trends-2.png' alt='Second slide')
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/img/trends-3.png' alt='Third slide')
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/img/trends-4.png' alt='Fourth slide')
+                            button.carousel-control-prev(type='button' data-bs-target='#carouselExample' data-bs-slide='prev')
+                                span.carousel-control-prev-icon(aria-hidden='true')
+                                span.visually-hidden Previous
+                            button.carousel-control-next(type='button' data-bs-target='#carouselExample' data-bs-slide='next')
+                                span.carousel-control-next-icon(aria-hidden='true')
+                                span.visually-hidden Next
+                    .col-sm-4
+                        #copy
+                            h3: b VEGGIES IN DEMAND
+                            p With veggies going mainstream, now is the time to be inventive and add more variety to your menu.
+                            p: b Inspiration: Pub Pickle Nachos
+
+        // Promote
+        section#promote
+            .promote-headline
+                .promote-header PROMOTING YOUR LTO
+                .promote-subheader Once you’ve unlocked your menu potential and created your LTO menu item, it’s time to get the word out. In our new guide, find a mix of beginner tips and advanced promotion tricks.
+                button.btn-promote.mt-4(type='button')
+                    i.fa-solid.fa-download
+                    b DOWNLOAD PROMOTING YOUR LTO
+            .promote-body
+                .row
+                    .col-sm-4
+                        .item1
+                            #img1
+                            #copy1
+                                h5: b DEFINING YOUR LTO & PLANNING YOUR CAMPAIGN
+                                p We talked to our advertising agency and got inside tips and advice on how to define your LTO, plan your campaign and get the word out on social and other digital channels.
+                    .col-sm-4
+                        .item2
+                            #img2
+                            #copy2
+                                h5: b TAKING INSTA-READY PHOTOS ON YOUR SMARTPHONE
+                                p The same photographer that takes drool-worthy photos for us? We asked him to share tips and tricks on how to take great food photos — no expensive equipment or complex set-ups needed.
+                    .col-sm-4
+                        .item3
+                            #img3
+                            #copy3
+                                h5: b CUSTOMIZABLE TABLE TENTS, MENU INSERTS AND MORE
+                                p At our new Chef’s Circle, you can upload photos and your restaurant logo to create print-ready promotional materials for your next LTO.
+
+
+
+        // Contact
+        section#contact
+            .contact-form
+                .row
+                    .col-sm-7
+                        #copy
+                            h3: b LET'S TALK
+                            p Your McCain rep is here to help inspire your next LTO. 
+                                br/ For product or other support, contact us today.
+                    .col-sm-5
+                        form
+                            .form-group.pb-3
+                                label Name
+                                input.form-control(
+                                    type='text',
+                                    placeholder='First Last',
+                                )
+                            .form-group.pb-3
+                                label Business (optional)
+                                input.form-control(
+                                    type='text',
+                                    placeholder='Restaurant',
+                                )
+                            .form-group.pb-3
+                                label Email Address
+                                input.form-control(
+                                    type='email',
+                                    placeholder='you@restaurant.com',
+                                )
+                            .form-group.pb-3
+                                label Phone Number (optional)
+                                input.form-control(
+                                    type='tel',
+                                    placeholder='123-456-7890',
+                                )
+                            .form-group.pb-3
+                                .d-grid.gap-2.col-12.mx-auto
+                                    button.btn-contact.mt-2(type='button'): b CONTACT SALES
+
+
+        //Additional Resources
+        section#resources
+            .resources-headline
+                .resources-header ADDITIONAL RESOURCES
+                button.btn-resources.mt-4(type='button')
+                    i.fa-solid.fa-camera                
+                    b VIEW ON INSTAGRAM
+            .resources-body
+                .row
+                    .col-sm-4
+                        .item1
+                            a(href='#')
+                                #img1
+                                #copy1
+                                    .d-flex.justify-content-end
+                                        i.fa-solid.fa-arrow-up-right-from-square
+                                    p Want more inspiration?
+                                        br/ Check out our 2023 LTO trend guide.                                   
+                       
+                    .col-sm-4
+                        .item2
+                            a(href='#')
+                                #img2
+                                #copy2
+                                    .d-flex.justify-content-end
+                                        i.fa-solid.fa-arrow-up-right-from-square
+                                    p Recipes from our McCain chefs to help create your future LTOs.
+
+                    .col-sm-4
+                        .item3
+                            a(href='#')
+                                #img3
+                                #copy3
+                                    .d-flex.justify-content-end
+                                        i.fa-solid.fa-arrow-up-right-from-square
+                                    p Our Promoting Your LTO checklist, so you can maximize traffic potential.
+
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js' integrity='sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r' crossorigin='anonymous')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js' integrity='sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy' crossorigin='anonymous')
+
+
+        // Core theme JS
+        script(src='js/scripts.js')
